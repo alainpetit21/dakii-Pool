@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Linux_Debug" />
+	<File name="AppPool.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="365" topLine="6" />
+	</File>
+	<File name="CtxGameOver.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="221" topLine="0" />
+	</File>
+	<File name="CtxGameOver.h" open="0" top="0" tabpos="3">
+		<Cursor position="271" topLine="0" />
+	</File>
+	<File name="CtxOption.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="239" topLine="0" />
+	</File>
+	<File name="CtxOption.h" open="0" top="0" tabpos="4">
+		<Cursor position="263" topLine="0" />
+	</File>
+	<File name="CtxPool.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="10632" topLine="407" />
+	</File>
+	<File name="CtxPool.h" open="0" top="0" tabpos="5">
+		<Cursor position="1476" topLine="30" />
+	</File>
+	<File name="CtxTitle.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="320" topLine="0" />
+	</File>
+	<File name="CtxTitle.h" open="0" top="0" tabpos="6">
+		<Cursor position="259" topLine="0" />
+	</File>
+	<File name="dakiilib/dfc/dfcContext.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="19221" topLine="595" />
+	</File>
+</CodeBlocks_layout_file>

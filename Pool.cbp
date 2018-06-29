@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Pool" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Linux_Debug">
+				<Option output="bin/linux/Debug/Pool_linuxd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/linux/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="Linux_Release">
+				<Option output="bin/linux/Release/Pool_linux" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/linux/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="GP2X_Debug">
+				<Option output="bin/gp2x/Debug/Pool_gp2xd.gpe" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/gp2x/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="GP2X_Release">
+				<Option output="bin/gp2x/Release/Pool_gp2x.gpe" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/gp2x/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="`sdl2-config --cflags`" />
+			<Add option="-D_LINUX" />
+			<Add directory="../../dakiilib/lib" />
+			<Add directory="../../dakiilib/dfc" />
+			<Add directory="../../dakiilib/helper" />
+			<Add directory="/usr/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl2-config --libs`" />
+			<Add library="libSDL2_image" />
+			<Add library="libSDL2_mixer" />
+			<Add directory="/usr/lib64" />
+		</Linker>
+		<Unit filename="../../dakiilib/dfc/dfc.h" />
+		<Unit filename="../../dakiilib/dfc/dfc3DEntity.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfc3DEntity.h" />
+		<Unit filename="../../dakiilib/dfc/dfc3DMaze.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfc3DMaze.h" />
+		<Unit filename="../../dakiilib/dfc/dfc3DSprite.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfc3DSprite.h" />
+		<Unit filename="../../dakiilib/dfc/dfcApp.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcApp.h" />
+		<Unit filename="../../dakiilib/dfc/dfcBackground.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcBackground.h" />
+		<Unit filename="../../dakiilib/dfc/dfcButton.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcButton.h" />
+		<Unit filename="../../dakiilib/dfc/dfcCamera.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcCamera.h" />
+		<Unit filename="../../dakiilib/dfc/dfcContext.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcContext.h" />
+		<Unit filename="../../dakiilib/dfc/dfcDictionary.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcDictionary.h" />
+		<Unit filename="../../dakiilib/dfc/dfcEntity.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcEntity.h" />
+		<Unit filename="../../dakiilib/dfc/dfcFont.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcFont.h" />
+		<Unit filename="../../dakiilib/dfc/dfcLabel.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcLabel.h" />
+		<Unit filename="../../dakiilib/dfc/dfcMusic.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcMusic.h" />
+		<Unit filename="../../dakiilib/dfc/dfcObj.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcObj.h" />
+		<Unit filename="../../dakiilib/dfc/dfcPhysObj.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcPhysObj.h" />
+		<Unit filename="../../dakiilib/dfc/dfcRPGEngine.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcRPGEngine.h" />
+		<Unit filename="../../dakiilib/dfc/dfcRPGEngineEntities.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcRPGEngineEntities.h" />
+		<Unit filename="../../dakiilib/dfc/dfcRPGEngineItems.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcRPGEngineItems.h" />
+		<Unit filename="../../dakiilib/dfc/dfcRPGEngineSpells.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcRPGEngineSpells.h" />
+		<Unit filename="../../dakiilib/dfc/dfcSceneEngine.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcSceneEngine.h" />
+		<Unit filename="../../dakiilib/dfc/dfcSceneNodes.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcSceneNodes.h" />
+		<Unit filename="../../dakiilib/dfc/dfcSound.cpp" />
+		<Unit filename="../../dakiilib/dfc/dfcSound.h" />
+		<Unit filename="../../dakiilib/helper/DString.cpp" />
+		<Unit filename="../../dakiilib/helper/DString.h" />
+		<Unit filename="../../dakiilib/helper/XMLLoader.cpp" />
+		<Unit filename="../../dakiilib/helper/XMLLoader.h" />
+		<Unit filename="../../dakiilib/lib/lib.h" />
+		<Unit filename="../../dakiilib/lib/libMacros.h" />
+		<Unit filename="../../dakiilib/lib/libMath.cpp" />
+		<Unit filename="../../dakiilib/lib/libMath.h" />
+		<Unit filename="../../dakiilib/lib/libMng3D.h" />
+		<Unit filename="../../dakiilib/lib/libMngGraphic.h" />
+		<Unit filename="../../dakiilib/lib/libMngIO.cpp" />
+		<Unit filename="../../dakiilib/lib/libMngIO.h" />
+		<Unit filename="../../dakiilib/lib/libMngInput.h" />
+		<Unit filename="../../dakiilib/lib/libMngResIO.cpp" />
+		<Unit filename="../../dakiilib/lib/libMngResIO.h" />
+		<Unit filename="../../dakiilib/lib/libMngSound.h" />
+		<Unit filename="../../dakiilib/lib/libTypes.h" />
+		<Unit filename="../../dakiilib/lib/linux/libMacros_linux.h" />
+		<Unit filename="../../dakiilib/lib/linux/libMng3D_linux.cpp" />
+		<Unit filename="../../dakiilib/lib/linux/libMng3D_linux.h" />
+		<Unit filename="../../dakiilib/lib/linux/libMngGraphic_linux.cpp" />
+		<Unit filename="../../dakiilib/lib/linux/libMngGraphic_linux.h" />
+		<Unit filename="../../dakiilib/lib/linux/libMngInput_linux.cpp" />
+		<Unit filename="../../dakiilib/lib/linux/libMngInput_linux.h" />
+		<Unit filename="../../dakiilib/lib/linux/libMngSound_linux.cpp" />
+		<Unit filename="../../dakiilib/lib/linux/libMngSound_linux.h" />
+		<Unit filename="../../dakiilib/lib/linux/libSystem_linux.cpp" />
+		<Unit filename="../../dakiilib/lib/linux/libTypes_linux.h" />
+		<Unit filename="../../dakiilib/lib/linux/lib_linux.h" />
+		<Unit filename="AppPool.cpp" />
+		<Unit filename="AppPool.h" />
+		<Unit filename="CtxGameOver.cpp" />
+		<Unit filename="CtxGameOver.h" />
+		<Unit filename="CtxOption.cpp" />
+		<Unit filename="CtxOption.h" />
+		<Unit filename="CtxPool.cpp" />
+		<Unit filename="CtxPool.h" />
+		<Unit filename="CtxTitle.cpp" />
+		<Unit filename="CtxTitle.h" />
+		<Unit filename="README.md" />
+		<Unit filename="game.h" />
+		<Unit filename="resScript/AppPool.application" />
+		<Unit filename="resScript/BallScore.sound" />
+		<Unit filename="resScript/BallWhiteFail.sound" />
+		<Unit filename="resScript/Baton.entity" />
+		<Unit filename="resScript/BkOption.background" />
+		<Unit filename="resScript/BkPool00.background" />
+		<Unit filename="resScript/BkPool00.collision" />
+		<Unit filename="resScript/BkPool01.background" />
+		<Unit filename="resScript/BkPool01.collision" />
+		<Unit filename="resScript/BkPool02.background" />
+		<Unit filename="resScript/BkPool02.collision" />
+		<Unit filename="resScript/BkPool03.background" />
+		<Unit filename="resScript/BkPool03.collision" />
+		<Unit filename="resScript/BkPool04.background" />
+		<Unit filename="resScript/BkPool04.collision" />
+		<Unit filename="resScript/BkPool05.background" />
+		<Unit filename="resScript/BkPool05.collision" />
+		<Unit filename="resScript/BkPool06.background" />
+		<Unit filename="resScript/BkPool06.collision" />
+		<Unit filename="resScript/BkPool07.background" />
+		<Unit filename="resScript/BkPool07.collision" />
+		<Unit filename="resScript/BkPool08.background" />
+		<Unit filename="resScript/BkPool08.collision" />
+		<Unit filename="resScript/BkPool09.background" />
+		<Unit filename="resScript/BkPool09.collision" />
+		<Unit filename="resScript/BkTitle.background" />
+		<Unit filename="resScript/CollisionBalls.sound" />
+		<Unit filename="resScript/CollisionWalls.sound" />
+		<Unit filename="resScript/CtxGameOver.context" />
+		<Unit filename="resScript/CtxOption.context" />
+		<Unit filename="resScript/CtxPool00.context" />
+		<Unit filename="resScript/CtxPool01.context" />
+		<Unit filename="resScript/CtxPool02.context" />
+		<Unit filename="resScript/CtxPool03.context" />
+		<Unit filename="resScript/CtxPool04.context" />
+		<Unit filename="resScript/CtxPool05.context" />
+		<Unit filename="resScript/CtxPool06.context" />
+		<Unit filename="resScript/CtxPool07.context" />
+		<Unit filename="resScript/CtxPool08.context" />
+		<Unit filename="resScript/CtxPool09.context" />
+		<Unit filename="resScript/CtxTitle.context" />
+		<Unit filename="resScript/DicPool.dictionary" />
+		<Unit filename="resScript/EntBall.entity" />
+		<Unit filename="resScript/EntHoles.entity" />
+		<Unit filename="resScript/EntPressStart.entity" />
+		<Unit filename="resScript/EntTitle.entity" />
+		<Unit filename="resScript/Font17.font" />
+		<Unit filename="resScript/Font8.font" />
+		<Unit filename="resScript/LblGameBall.label" />
+		<Unit filename="resScript/LblGameBallValue.label" />
+		<Unit filename="resScript/LblGameOver.label" />
+		<Unit filename="resScript/LblGamePower.label" />
+		<Unit filename="resScript/LblGameRate.label" />
+		<Unit filename="resScript/LblGameRateValue.label" />
+		<Unit filename="resScript/LblGameScore1.label" />
+		<Unit filename="resScript/LblGameScore1Value.label" />
+		<Unit filename="resScript/LblGameScore2.label" />
+		<Unit filename="resScript/LblGameScore2Value.label" />
+		<Unit filename="resScript/LblGameScoreHi.label" />
+		<Unit filename="resScript/LblGameScoreHiValue.label" />
+		<Unit filename="resScript/LblGameShot.label" />
+		<Unit filename="resScript/LblGameStage.label" />
+		<Unit filename="resScript/LblGameStageValue.label" />
+		<Unit filename="resScript/LblTitleHiScore.label" />
+		<Unit filename="resScript/LblTitleHiScoreValue.label" />
+		<Unit filename="resScript/LblTitleScore.label" />
+		<Unit filename="resScript/LblTitleScoreValue.label" />
+		<Unit filename="resScript/MusicGame.sound" />
+		<Unit filename="resScript/MusicIntro.sound" />
+		<Unit filename="resScript/MusicOption.sound" />
+		<Unit filename="resScript/MusicTitle.sound" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,70 @@
+<DICTIONARY>
+	<NB_LANGUAGES>2</NB_LANGUAGES>
+	<NB_ENTRY>7</NB_ENTRY>
+
+	<LANGUAGE>
+		<NAME>English</NAME>
+
+		<ENTRY>
+			<MAP>Ball</MAP>
+			<TXT>BALL</TXT>
+		</ENTRY>
+		<ENTRY>
+			<MAP>Power</MAP>
+			<TXT>POWER</TXT>
+		</ENTRY>
+		<ENTRY>
+			<MAP>Rate</MAP>
+			<TXT>RATE</TXT>
+		</ENTRY>
+		<ENTRY>
+			<MAP>Shot</MAP>
+			<TXT>SHOT</TXT>
+		</ENTRY>
+		<ENTRY>
+			<MAP>Stage</MAP>
+			<TXT>STAGE</TXT>
+		</ENTRY>
+		<ENTRY>
+			<MAP>GameOver</MAP>
+			<TXT>GAME OVER</TXT>
+		</ENTRY>
+		<ENTRY>
+			<MAP>Score</MAP>
+			<TXT>SCORE</TXT>
+		</ENTRY>
+	</LANGUAGE>
+
+	<LANGUAGE>
+		<NAME>Francais</NAME>
+
+		<ENTRY>
+			<MAP>Ball</MAP>
+			<TXT>BALE</TXT>
+		</ENTRY>
+		<ENTRY>
+			<MAP>Power</MAP>
+			<TXT>PUISS</TXT>
+		</ENTRY>
+		<ENTRY>
+			<MAP>Rate</MAP>
+			<TXT>TAUX</TXT>
+		</ENTRY>
+		<ENTRY>
+			<MAP>Shot</MAP>
+			<TXT>TIR </TXT>
+		</ENTRY>
+		<ENTRY>
+			<MAP>Stage</MAP>
+			<TXT>ETAPE</TXT>
+		</ENTRY>
+		<ENTRY>
+			<MAP>GameOver</MAP>
+			<TXT>PARTIE TERMINEE</TXT>
+		</ENTRY>
+		<ENTRY>
+			<MAP>Score</MAP>
+			<TXT>SCORE</TXT>
+		</ENTRY>
+	</LANGUAGE>
+</DICTIONARY>

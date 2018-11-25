@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>graphWork</itemPath>
+      <itemPath>resInput</itemPath>
+      <itemPath>resScript</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/AppPool.cpp</itemPath>
+      <itemPath>src/AppPool.h</itemPath>
+      <itemPath>src/CtxGameOver.cpp</itemPath>
+      <itemPath>src/CtxGameOver.h</itemPath>
+      <itemPath>src/CtxOption.cpp</itemPath>
+      <itemPath>src/CtxOption.h</itemPath>
+      <itemPath>src/CtxPool.cpp</itemPath>
+      <itemPath>src/CtxPool.h</itemPath>
+      <itemPath>src/CtxTitle.cpp</itemPath>
+      <itemPath>src/CtxTitle.h</itemPath>
+      <itemPath>src/game.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>README.md</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+            <pElem>../../Libs/dakiilib/src/dfc</pElem>
+            <pElem>../../Libs/dakiilib/src/helper</pElem>
+            <pElem>../../Libs/dakiilib/src/lib</pElem>
+          </incDir>
+          <commandLine>`sdl2-config --cflags` -fexceptions</commandLine>
+          <preprocessorList>
+            <Elem>_DEBUG</Elem>
+            <Elem>_LINUX</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>../../Libs/dakiilib/dist/Debug/GNU-Linux</pElem>
+            <pElem>/usr/lib64</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>dakiilib</linkerLibLibItem>
+            <linkerLibLibItem>SDL2_image</linkerLibLibItem>
+            <linkerLibLibItem>SDL2_mixer</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>`sdl2-config --libs`</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graphWork" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resInput" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resScript" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/AppPool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/AppPool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CtxGameOver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CtxGameOver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CtxOption.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CtxOption.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CtxPool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CtxPool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CtxTitle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CtxTitle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/game.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graphWork" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resInput" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resScript" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/AppPool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/AppPool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CtxGameOver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CtxGameOver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CtxOption.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CtxOption.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CtxPool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CtxPool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CtxTitle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CtxTitle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/game.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
